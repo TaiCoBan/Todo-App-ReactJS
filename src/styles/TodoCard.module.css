@@ -1,0 +1,9 @@
+.card {
+    background-color: #2b2d2e;
+    margin: 5px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Canh giữa nội dung theo chiều dọc nếu cần */
+    align-items: center; /* Canh giữa nội dung theo chiều ngang nếu cần */
+}

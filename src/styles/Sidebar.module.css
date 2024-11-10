@@ -1,13 +1,8 @@
-/* body {
-    margin: 0;
-    font-family: "Lato", sans-serif;
-} */
-
 .sidebar {
     margin: 0;
     padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
+    width: 22%;
+    background-color: #212121;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -15,18 +10,19 @@
 
 .sidebar a {
     display: block;
-    color: black;
+    color: white;
     padding: 16px;
     text-decoration: none;
+    margin: 4px 4px 4px 4px;
 }
 
 .sidebar a.active {
-    background-color: #04AA6D;
+    background-color: #333333;
     color: white;
 }
 
 .sidebar a:hover:not(.active) {
-    background-color: #555;
+    background-color: #333333;
     color: white;
 }
 
