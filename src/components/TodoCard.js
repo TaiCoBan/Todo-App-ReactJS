@@ -1,11 +1,10 @@
-import styles from "../styles/TodoCard.module.css"
+import styles from "../styles/TodoCard.module.css";
 
-export default function TodoCard({ title, description, onDelete }) {
+export default function TodoCard({ content }) {
     return (
-        <div className={styles.card}>
-            <h3>{title}</h3>
-            <p>{description}</p>
-            <button onClick={onDelete} className={styles.deleteBtn}>Delete</button>
+        <div className={styles["task-item"]}>
+            <input type="checkbox" />
+            <span className={styles["task-text"]}>{content}</span>
         </div>
     );
 }

@@ -3,12 +3,13 @@
     padding: 0;
     width: 22%;
     background-color: #212121;
-    position: fixed;
-    height: 100%;
+    /* position: fixed; */
+    height: 100vh; /* Đổi từ 100% thành 100vh */
     overflow: auto;
 }
 
 .sidebar a {
+    font-size: 14px;
     display: block;
     color: white;
     padding: 16px;
@@ -19,17 +20,26 @@
 .sidebar a.active {
     background-color: #333333;
     color: white;
+    border-radius: 5px;
 }
 
 .sidebar a:hover:not(.active) {
     background-color: #333333;
     color: white;
+    border-radius: 5px;
 }
 
-div.content {
-    margin-left: 200px;
-    padding: 1px 16px;
-    height: 1000px;
+.user-info {
+}
+
+.avatar {
+}
+
+.user-name, .user-email {
+}
+
+.bottom-sidebar {
+    
 }
 
 @media screen and (max-width: 700px) {
@@ -41,10 +51,6 @@ div.content {
 
     .sidebar a {
         float: left;
-    }
-
-    div.content {
-        margin-left: 0;
     }
 }
 

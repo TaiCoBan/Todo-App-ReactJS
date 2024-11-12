@@ -1,3 +1,20 @@
-h1 {
-    margin-left: 25vw;
+/* Container.module.css */
+
+.container {
+    height: 100vh;
+    width: 78%;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    color: white;
+
+    /* Căn container lên góc trên bên phải */
+    position: fixed; /* Giữ vị trí cố định khi cuộn trang */
+    top: 0px; /* Khoảng cách từ trên cùng */
+    right: 0px; /* Khoảng cách từ bên phải */
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    text-align: left;
+    margin: 40px 0px 30px 40px;
 }
